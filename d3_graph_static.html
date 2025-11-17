@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google" content="notranslate" />
+<title>TRACCS Participants - Graph</title>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+
+<script src="d3_graph.js"></script>
+<link rel="stylesheet" href="d3_graph.css">
+
+<style>
+body {
+ font-family: arial;
+ font-size: 14px;
+ overflow: hidden;
+}
+#viz {
+ position: relative;
+ width: 100%;
+ height: 100%;
+}
+</style>
+
+<script type="text/javascript">
+$(document).ready(function() { 
+
+
+var dataIn  = [
+{ email: 'aaaaa@org',
+  firstname: '',
+  name: '',
+  face: 'faces/default.png',
+  keywords: []
+},
+{ email: 'bbbbb@org',
+  firstname: '',
+  name: '',
+  face: 'faces/default.png',
+  keywords: []
+},
+{ email: 'ccccc@org',
+  firstname: '',
+  name: '',
+  face: 'faces/default.png',
+  keywords: [ 'cake', 'salad']
+},
+];
+
+//var dataIn = window.usersFound;
+
+buildGraph(dataIn, "#viz");
+
+});
+</script>
+
+</head>
+
+<body>
+<!-- ================================================================================ -->
+
+<div id="viz"></div>
+
+<!-- ================================================================================ -->
+</body>
+</html>

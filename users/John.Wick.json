@@ -1,0 +1,15 @@
+{
+    "email": "John.Wick@org",
+    "updated_at": "2025-11-10T13:04:34+00:00",
+    "gdpr": {
+        "accepted": true,
+        "when": "2025-11-13T23:34:08+00:00"
+    },
+    "keywords": [
+        "PC06 QUINTET",
+        "python"
+    ],
+    "infos": {
+        "institution": "MIT"
+    }
+}

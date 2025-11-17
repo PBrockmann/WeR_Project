@@ -1,0 +1,8 @@
+
+# Deny access to all files in this directory
+<FilesMatch "\.(json|txt|log|cfg|png)$">
+    Require all denied
+</FilesMatch>
+
+# Optional: disable directory listing
+Options -Indexes

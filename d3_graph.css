@@ -1,0 +1,49 @@
+
+.mytext {
+  fill: black;
+  font-family: arial;
+  text-anchor: middle;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+}
+
+.mytextEmail {
+  fill: black;
+  font-family: arial;
+  font-style: italic;
+  text-anchor: middle;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+}
+
+.face {
+  border: 4px solid lightgray;
+  border-radius: 50%;
+}
+
+tooltip {
+  position: absolute;
+  color: #333;
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 13px;
+  font-style: italic;
+  width: 300px;
+  background-color: white;
+  z-index: 1000;
+}
+
+ul {
+  padding-left: 20px;
+}
