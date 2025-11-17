@@ -82,7 +82,7 @@ if (($_POST['step'] ?? '') === 'request_otp') {
             $_SESSION['otp_tries']      = 0;
             $_SESSION['sent_count']++;
 
-            $subject = "Your login code as TRACCS participant";
+            $subject = "Your login code as PROJECT participant";
             $message = "
             <html>
               <body>
@@ -141,7 +141,7 @@ if (($_POST['step'] ?? '') === 'verify_otp') {
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Login (TRACCS)</title>
+<title>Login (PROJECT)</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -162,7 +162,7 @@ body{background:#f7f7f9}
 <div class="container form-box">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <strong>Email sign-in (TRACCS)</strong>
+      <strong>Email sign-in (PROJECT)</strong>
       <span class="small"><a href="login.php?logout=1">Reset session</a></span>
     </div>
     <div class="panel-body">
