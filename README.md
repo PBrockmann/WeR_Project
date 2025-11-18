@@ -6,4 +6,10 @@ WeR_Project aims to help users discover and explore participants of a project th
 
 From a technical standpoint, the application is a lightweight PHP, HTML and JavaScript solution that operates without a database, relying on a simple directory structure (users/ and faces/). Authentication is handled through an email whitelist combined with two-factor authentication (2FA). A predefined keyword list is included to guide user selections. Each participant supplies a photo, basic profile information and their own keywords once RGPD consent is accepted.
 
+Conception and developments : Patrick Brockmann LSCE/CEA - IPSL
+
+This project is distributed under the **CeCILL v2.1** license.  
+![CeCILL License](https://img.shields.io/badge/license-CeCILL-blue)
+
+
 ![Capture](capture.png) 
