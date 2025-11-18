@@ -948,8 +948,9 @@ function chipColor(keyword, saturation){
           { data: 'institution',      title: 'Institution'     },
           { data: 'phone',    title: 'Phone'   },
           { data: 'keywords', title: 'Keywords'}
-        ],
-        pageLength: 10,
+	],
+	lengthMenu: [[5, 10], [5, 10]],
+        pageLength: 5,
         order: [[0, 'asc']]
       });
     }
