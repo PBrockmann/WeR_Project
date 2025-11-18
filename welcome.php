@@ -275,7 +275,7 @@ if (($_POST['step'] ?? '') === 'save_infos') {
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Welcome</title>
+<title>WeR_Project</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
