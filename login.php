@@ -96,7 +96,7 @@ if (($_POST['step'] ?? '') === 'request_otp') {
             ";
             $headers  = "MIME-Version: 1.0\r\n";
             $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-            $headers .= "From: no-reply\r\n";
+            $headers .= "From: no-reply@org\r\n";
             $sent = @mail($email, $subject, $message, $headers);
 
             if ($sent) {
